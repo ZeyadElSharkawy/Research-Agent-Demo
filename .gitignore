@@ -61,7 +61,6 @@ REAL_TIME_AGENT_STATUS.md
 src/vector_store/*.bin
 vectorstore/*.sqlite3
 chroma_db/
-vector_store/
 
 # Cache
 *.cache
