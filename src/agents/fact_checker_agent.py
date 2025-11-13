@@ -17,7 +17,7 @@ if not GOOGLE_API_KEY:
     raise ValueError("⚠️ Missing Google API key.")
 
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-2.0-lite")
 
 def extract_json_from_text(text: str) -> dict:
     """Extract JSON from text, handling markdown code blocks and malformed JSON."""
