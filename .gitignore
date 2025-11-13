@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv
+venv/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Documentation (exclude generated MD files)
+UI_IMPROVEMENTS.md
+VISUAL_CHANGES.md
+REALTIME_LOGGING.md
+REALTIME_DEMO.md
+LOADING_FIX.md
+PERFORMANCE_FIX.md
+REAL_TIME_AGENT_STATUS.md
+
+# History files
+.history/
+
+# Vector Store Data (too large for git)
+src/vector_store/*.bin
+vectorstore/*.sqlite3
+chroma_db/
+
+# Cache
+*.cache
+.cache/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+

@@ -1,0 +1,11 @@
+Excel File: new_duck_exec_onboarding_customer_funnel_from0106to3110.xlsx
+Sheets: Sheet1
+
+SHEET: Sheet1
+Shape: 4 rows, 3 columns
+Columns: id, status, count
+
+SAMPLE DATA:
+Row 1: {'id': 1, 'status': 'Total EKYC', 'count': 50000}
+Row 2: {'id': 2, 'status': 'Completed Onboardings', 'count': 30000}
+Row 3: {'id': 4, 'status': 'Approved', 'count': 10000}
