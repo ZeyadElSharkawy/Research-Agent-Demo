@@ -19,7 +19,7 @@ if not GOOGLE_API_KEY:
     raise ValueError("⚠️ Missing Google API key. Set GOOGLE_API_KEY as an environment variable.")
 
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel("gemini-2.0-flash-lite")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 def extract_json_from_text(text: str):
     """Extract JSON from text with robust error handling."""
@@ -70,6 +70,7 @@ Return your output as a pure JSON list of strings, e.g.:
 ["Claim 1", "Claim 2", "Claim 3"]
 
 IMPORTANT: If the text contains no verifiable factual claims, return an empty list [].
+Return a pure JSON and DONT USE: ```json
 """
 
     try:
